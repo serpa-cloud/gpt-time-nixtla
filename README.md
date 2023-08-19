@@ -100,5 +100,3 @@ This runs the backend server at [http://localhost](http://localhost) and exposes
 You can make modifications to this application and easily deploy it using [Serpa Cloud](https://serpa.cloud). Just fork it on GitHub or upload the application to a new repository.
 
 When configuring the deployment, remember to add the environment variables with your API keys, **OPENAI_API_KEY**, and **NIXTLA_TOKEN**.
-
-<img src="https://static.serpa.cloud/6b14af70-3e69-11ee-9672-0f38f31afbc3/640/0/0/serpa-deploy" width="640" />
