@@ -1,6 +1,6 @@
 {
   "name": "gpt-time-nixtla",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "author": "Emilia Gonzalez",
   "proxy": "http://localhost:7001",
