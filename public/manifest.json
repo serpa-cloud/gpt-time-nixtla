@@ -1,0 +1,9 @@
+{
+  "short_name": "Vantage",
+  "name": "Time GPT Vantage",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#563aff",
+  "background_color": "#f7f7fc"
+}

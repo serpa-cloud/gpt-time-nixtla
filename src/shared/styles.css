@@ -1,0 +1,121 @@
+@import '~@typeform/embed/build/css/popup.css';
+
+html,
+body {
+  font-size: 16px;
+  margin: 0;
+  background-color: var(--neutral-color-200);
+}
+
+@media (max-width: 960px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+a {
+  color: var(--primary-color-1);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#notification-portal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 9999999;
+}
+
+:root {
+  --header-height: 64px;
+  --footer-height: 186px;
+  --content-top-padding: 32px;
+
+  --primary-color-1: #9b25c7;
+
+  --secondary-color-1: #3324d5;
+  --secondary-color-3: #7d42fb;
+  --secondary-color-4: #2ff2b8;
+  --secondary-color-5: #ffcd42;
+
+  --neutral-color-800: #211f54;
+  --neutral-color-700: #4a4566;
+  --neutral-color-600: #6e7191;
+  --neutral-color-500: #a0a3bd;
+  --neutral-color-400: #dcddeb;
+  --neutral-color-300: #eff0f6;
+  --neutral-color-200: #f7f7fc;
+  --neutral-color-100: #ffffff;
+
+  --blue-400: #086cd9;
+  --blue-300: #1d88fe;
+  --blue-200: #8fc3ff;
+  --blue-100: #eaf4ff;
+
+  --red-400: #dc2b2b;
+  --red-300: #ff5a65;
+  --red-200: #ffbec2;
+  --red-100: #ffeff0;
+
+  --orange-400: #d5691b;
+  --orange-300: #ff9e2c;
+  --orange-200: #ffd19b;
+  --orange-100: #fff3e4;
+
+  --green-400: #11845b;
+  --green-300: #05c168;
+  --green-200: #7fdca4;
+  --green-100: #def2e6;
+
+  --done: #2ff2b8;
+
+  --shadow-1: 0px 2px 6px 0 rgba(20, 20, 43, 0.06);
+  --shadow-2: 0px 2px 15px 0 rgba(33, 31, 84, 0.06);
+
+  --shadow-1-color: 0px 4px 10px 0 rgba(74, 58, 255, 0.06);
+  --shadow-2-color: 0px 6px 20px 0 rgba(74, 58, 255, 0.08);
+  --shadow-3-color: 0px 10px 28px 0 rgba(74, 58, 255, 0.12);
+
+  --shadow-1-white: 0px 4px 10px 0 rgba(20, 20, 43, 0.04);
+
+  --font-family-apple: system-ui, -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', sans-serif;
+  --font-family-code: ui-monospace, Menlo, Consolas, Monaco, monospace;
+  --font-family-default: system-ui, -apple-system, BlinkMacSystemFont, '.SFNSText-Regular',
+    sans-serif;
+  --font-family-segoe: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+
+  --fds-soft: cubic-bezier(0.08, 0.52, 0.52, 1);
+  --fds-animation-enter-exit-in: cubic-bezier(0.14, 1, 0.34, 1);
+  --fds-animation-enter-exit-out: cubic-bezier(0.45, 0.1, 0.2, 1);
+  --fds-animation-swap-shuffle-in: cubic-bezier(0.14, 1, 0.34, 1);
+  --fds-animation-swap-shuffle-out: cubic-bezier(0.45, 0.1, 0.2, 1);
+  --fds-animation-move-in: cubic-bezier(0.17, 0.17, 0, 1);
+  --fds-animation-move-out: cubic-bezier(0.17, 0.17, 0, 1);
+  --fds-animation-expand-collapse-in: cubic-bezier(0.17, 0.17, 0, 1);
+  --fds-animation-expand-collapse-out: cubic-bezier(0.17, 0.17, 0, 1);
+  --fds-animation-passive-move-in: cubic-bezier(0.5, 0, 0.1, 1);
+  --fds-animation-passive-move-out: cubic-bezier(0.5, 0, 0.1, 1);
+  --fds-animation-quick-move-in: cubic-bezier(0.1, 0.9, 0.2, 1);
+  --fds-animation-quick-move-out: cubic-bezier(0.1, 0.9, 0.2, 1);
+  --fds-animation-fade-in: cubic-bezier(0, 0, 1, 1);
+  --fds-animation-fade-out: cubic-bezier(0, 0, 1, 1);
+
+  --fds-fast: 200ms;
+  --fds-duration-extra-extra-short-in: 100ms;
+  --fds-duration-extra-extra-short-out: 100ms;
+  --fds-duration-extra-short-in: 200ms;
+  --fds-duration-extra-short-out: 150ms;
+  --fds-duration-short-in: 280ms;
+  --fds-duration-short-out: 200ms;
+  --fds-duration-medium-in: 400ms;
+  --fds-duration-medium-out: 350ms;
+  --fds-duration-long-in: 500ms;
+  --fds-duration-long-out: 350ms;
+  --fds-duration-extra-long-in: 1000ms;
+  --fds-duration-extra-long-out: 1000ms;
+  --fds-duration-none: 0ms;
+}

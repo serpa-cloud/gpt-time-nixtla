@@ -1,0 +1,11 @@
+/coverage
+/dist
+/node_modules
+/test/fixtures
+/deprecated
+.eslintrc.js
+.eslintignore
+/src/serviceWorker.js
+/src/AppServer.jsx
+/scripts
+/config

@@ -1,0 +1,7 @@
+/coverage
+/dist
+/node_modules
+/test/fixtures
+/src/__generated__
+CHANGELOG.md
+/serpa-atomic-compiler

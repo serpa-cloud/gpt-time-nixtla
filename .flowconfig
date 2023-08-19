@@ -1,0 +1,21 @@
+[ignore]
+.*/node_modules/resolve/test/*
+
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+module.name_mapper='.*\(.sass\)' -> 'CSSModule'
+module.name_mapper='.*\(.svg\)' -> 'SVGModule'
+module.name_mapper='.*\(.mp3\)' -> 'Audio'
+module.system=haste
+react.runtime=automatic
+relay_integration=true
+relay_integration.module_prefix=./__generated__/
+relay_integration.excludes=.*/__tests__/.*
+relay_integration.excludes=.*/__flowtests__/.*
+
+[strict]
