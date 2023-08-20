@@ -1,6 +1,5 @@
 <p align="center">
-  <a href="#">
-    <img width="150" height="150" src="https://github.com/serpa-cloud/gpt-time-nixtla/assets/4086186/8b1b5ba8-1627-4c2f-8ba8-e9bac78718f1" alt="FinOps" width="200" />
+    <img width="150" height="150" src="https://github.com/serpa-cloud/gpt-time-nixtla/assets/84948317/c375668c-761a-4db8-9c0f-07fb003fc58a" alt="FinOps" width="200" />
   </a>
 </p>
 <p align="center">
